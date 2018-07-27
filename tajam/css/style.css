@@ -39,7 +39,7 @@ body {
 
 @media (max-width: 425px) {
   .wrapper {
-    width: 385px; } }
+    width: 425px; } }
 
 .button {
   display: inline-block;
