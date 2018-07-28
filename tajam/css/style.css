@@ -33,17 +33,6 @@ body {
     width: 50px;
     height: 1px; }
 
-<<<<<<< HEAD
-=======
-@media (max-width: 768px) {
-  .wrapper {
-    width: 728px; } }
-
-@media (max-width: 425px) {
-  .wrapper {
-    width: 425px; } }
-
->>>>>>> 5da56d7d8a7ca98a201546f023f0067470fc4668
 .button {
   display: inline-block;
   padding: 14px;
