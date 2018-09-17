@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <title>Document</title>
+</head>
+<body>
+  <header class="header page-header" name="top">
+    <div class="header-upper">
+      <h1 class="header-upper__logo">
+        <a href="">
+          <img src="img/bag.png" alt="">
+          <p>Commerece </p>
+        </a>
+      </h1>
+      <div class="header-upper__widget">
+        <div class="search-wrapper">
+          <input class="search-input" type="text" placeholder="Search">
+          <button class="search-button" value="Search"><i class="fas fa-search"></i></button>
+        </div>
+        <a class="button signup-button bgcolor--wave" type="button" onclick="togglePopUp(signup)">Sign Up</a>
+      </div>
+    </div>
+    <nav class="main-nav">
+      <ul class="nav-list nav-list--small">
+        <li class="nav-list__item item-home"><a href=""><i class="fas fa-home"></i></a></li>
+        <li class="nav-list__item dropdown">Shop by Category <i class="fas fa-angle-down"></i>
+          <ul class="dropdown__menu">
+            <li class="dropdown__item"><a href="#">Пункт1</a></li>
+            <li class="dropdown__item"><a href="#">Пункт2</a></li>
+            <li class="dropdown__item"><a href="#">Пункт3</a></li>
+          </ul>
+        </li>
+        <li class="nav-list__item dropdown">Shop by Brand <i class="fas fa-angle-down"></i>
+          <ul class = "dropdown__menu">
+            <li class="dropdown__item"><a href="#">Пункт1</a></li>
+            <li class="dropdown__item"><a href="#">Пункт2</a></li>
+            <li class="dropdown__item"><a href="#">Пункт3</a></li>
+          </ul>
+        </li>
+        <li class="nav-list__item"><a href="">Tranding</a></li>
+        <li class="nav-list__item nav-list__item--new"><a href="">Offers</a></li>
+        <li class="nav-list__item"><a href="">Contact us</a></li>
+        </li>
+        <li class="nav-list__item item-buttons">
+          <a class="button bgcolor--yellow" href=""><i class="fab fa-opencart"></i> Cart 0</a><a class="button bgcolor--wave" href=""><i class="far fa-user"></i> Sign in</a>
+        </li>
+      </ul>
+    </nav>
+    <button class="button button-menu" onclick="smallMenu(navList)"><i class="fas fa-bars"></i></button>
+    <nav class="main-nav--small">
+      <ul class="nav-list">
+        <li class="nav-list__item item-home"><a href=""><i class="fas fa-home"></i></a></li>
+        <li class="nav-list__item dropdown">Shop by Category <i class="fas fa-angle-down"></i>
+          <ul class="dropdown__menu">
+            <li class="dropdown__item"><a href="#">Пункт1</a></li>
+            <li class="dropdown__item"><a href="#">Пункт2</a></li>
+            <li class="dropdown__item"><a href="#">Пункт3</a></li>
+          </ul>
+        </li>
+        <li class="nav-list__item dropdown">Shop by Brand <i class="fas fa-angle-down"></i>
+          <ul class = "dropdown__menu">
+            <li class="dropdown__item"><a href="#">Пункт1</a></li>
+            <li class="dropdown__item"><a href="#">Пункт2</a></li>
+            <li class="dropdown__item"><a href="#">Пункт3</a></li>
+          </ul>
+        </li>
+        <li class="nav-list__item"><a href="">Tranding</a></li>
+        <li class="nav-list__item nav-list__item--new"><a href="">Offers</a></li>
+        <li class="nav-list__item"><a href="">Contact us</a></li>
+        </li>
+        <li class="nav-list__item item-buttons">
+          <a class="button bgcolor--yellow" href=""><i class="fab fa-opencart"></i> Cart 0</a><a class="button bgcolor--wave" href=""><i class="far fa-user"></i> Sign in</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <div class="slider main-slider">
+    <div class="main-slider__img"><img src="./img/slickimg.png" alt=""></div>
+    <div class="main-slider__img"><img src="./img/slickimg.png" alt=""></div>
+  </div>
+  <main class="page-main">
+    <section class="section welcome">
+      <article class="section__content welcome__content">
+        <h2 class="title section__title">Welcome!</h2>
+        <h3 class="subtitle section__subtitle">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel inventore dolorem a.</h3>
+        <p class="section__text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci excepturi accusamus aspernatur? Rerum laborum possimus quam et voluptates voluptate accusantium porro eaque ad optio sit odio facere molestias iusto, a mollitia! Nobis amet numquam magnam sapiente dicta natus similique consectetur ex, voluptate dolore reprehenderit iusto temporibus excepturi autem ab quasi.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci excepturi accusamus aspernatur? Rerum laborum possimus quam et voluptates voluptate accusantium porro eaque ad optio sit odio facere molestias iusto, a mollitia! Nobis amet numquam magnam sapiente dicta natus similique consectetur ex, voluptate dolore reprehenderit iusto temporibus excepturi autem ab quasi.          
+        </p>
+      </article>
+    </section>
+    <section class="features">
+      <ul class="features__list features-list">
+        <li class="features-list__item features-item color--yellow">
+          <div class="features-item__content bgcolor--yellow">
+            <h3 class="features-item__title">Computers</h3>
+            <p class="features-item__subtitle">Lorem ipsum dolor sit.</p>
+            <a href="" class="far fa-folder-open features-item__button"></a>             
+          </div>
+          <i class="fas fa-laptop features-item__icon features-item__icon--yellow"></i>
+        </li>
+        <li class="features-list__item features-item color--red">
+          <div class="features-item__content bgcolor--red">
+            <h3 class="features-item__title">Music</h3>
+            <p class="features-item__subtitle">Lorem ipsum dolor sit.</p>
+            <a href="" class="far fa-folder-open features-item__button"></a> 
+          </div>
+          <i class="fas fa-music features-item__icon features-item__icon--red"></i>
+        </li>
+        <li class="features-list__item features-item color--wave">
+          <div class="features-item__content bgcolor--wave">
+            <h3 class="features-item__title">Website</h3>
+            <p class="features-item__subtitle">Lorem ipsum dolor sit.</p>
+            <a href="" class="far fa-folder-open features-item__button"></a> 
+          </div>
+          <i class="fas fa-globe-americas features-item__icon features-item__icon--wave"></i>
+        </li>
+        <li class="features-list__item features-item color--green">
+          <div class="features-item__content features-item__content--left bgcolor--green features-item__content--last">
+            <h3 class="features-item__title">Android App</h3>
+            <p class="features-item__subtitle">Lorem ipsum dolor sit.</p>
+            <a href="" class="far fa-folder-open features-item__button"></a> 
+          </div>
+          <i class="fab fa-android features-item__icon features-item__icon--green"></i>
+        </li>
+        <li class="features-list__item features-item color--blue">
+          <div class="features-item__content features-item__content--left bgcolor--blue features-item__content--last">
+            <h3 class="features-item__title">ios App</h3>
+            <p class="features-item__subtitle">Lorem ipsum dolor sit.</p>
+            <a href="" class="far fa-folder-open features-item__button"></a>            
+          </div>
+          <i class="fab fa-apple features-item__icon features-item__icon--blue"></i>
+        </li>
+        <li class="features-list__item features-item color--navy">
+          <div class="features-item__content features-item__content--left bgcolor--navy features-item__content--last">
+            <h3 class="features-item__title">Other</h3>
+            <p class="features-item__subtitle">Lorem ipsum dolor sit.</p>
+            <a href="" class="far fa-folder-open features-item__button"></a>
+          </div>
+          <i class="fas fa-ellipsis-h features-item__icon features-item__icon--navy"></i>
+        </li>
+      </ul>
+    </section>
+    <section class="section products">
+      <article class="section__content products__content">
+        <h2 class="title section__title">Products</h2>
+        <h3 class="subtitle section__subtitle">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel inventore dolorem a.</h3>
+        <ul class="product-list">
+          <li class="product-list__item product">
+            <div class="product__img"><img src="img/hd.png" alt=""></div>
+            <article class="product__content">
+              <h3 class="title product__title">Hard Disk</h3>
+              <p class="subtitle product__subtitle">Lorem ipsum dolor sit amet.</p>
+              <p class="product__price">$200.00<span class="product__price-before"></span> </p>
+              <button class="button bgcolor--wave product__buy"><i class="fas fa-shopping-cart"></i> +</button>
+              <div class="product__other-buttons">
+                <button class="button wishlist"><i class="fas fa-heart"></i> Add to wishlist</button>
+                <button class="button compare"><i class="far fa-copy"></i> Add to compare</button>
+              </div>
+            </article>
+          </li>
+          <li class="product-list__item product">
+            <div class="product__img"><img src="img/game.png" alt=""></div>
+            <article class="product__content">
+              <h3 class="title product__title">Game remote</h3>
+              <p class="subtitle product__subtitle">Lorem ipsum dolor sit amet.</p>
+              <p class="product__price">$200.00<span class="product__price-before"></span> </p>
+              <button class="button bgcolor--wave product__buy"><i class="fas fa-shopping-cart"></i> +</button>
+              <div class="product__other-buttons">
+                <button class="button wishlist"><i class="fas fa-heart"></i> Add to wishlist</button>
+                <button class="button compare"><i class="far fa-copy"></i> Add to compare</button>
+              </div>
+            </article>
+          </li>
+          <li class="product-list__item product">
+            <div class="product__img"><img src="img/disk.png" alt=""></div>
+            <article class="product__content">
+              <h3 class="title product__title">CD / DVD</h3>
+              <p class="subtitle product__subtitle">Lorem ipsum dolor sit amet.</p>
+              <p class="product__price">$200.00<span class="product__price-before"></span> </p>
+              <button class="button bgcolor--wave product__buy"><i class="fas fa-shopping-cart"></i> +</button>
+              <div class="product__other-buttons">
+                <button class="button wishlist"><i class="fas fa-heart"></i> Add to wishlist</button>
+                <button class="button compare"><i class="far fa-copy"></i> Add to compare</button>
+              </div>
+            </article>
+          </li>
+          <li class="product-list__item product">
+            <div class="product__img"><img src="img/laptop.png" alt=""></div>
+            <article class="product__content">
+              <h3 class="title product__title">Laptop</h3>
+              <p class="subtitle product__subtitle">Lorem ipsum dolor sit amet.</p>
+              <p class="product__price">$200.00<span class="product__price-before"></span> </p>
+              <button class="button bgcolor--wave product__buy"><i class="fas fa-shopping-cart"></i> +</button>
+              <div class="product__other-buttons">
+                <button class="button wishlist"><i class="fas fa-heart"></i> Add to wishlist</button>
+                <button class="button compare"><i class="far fa-copy"></i> Add to compare</button>
+              </div>
+            </article>
+          </li>
+          <li class="product-list__item product">
+            <div class="product__img"><img src="img/book.png" alt=""></div>
+            <article class="product__content">
+              <h3 class="title product__title">Books</h3>
+              <p class="subtitle product__subtitle">Lorem ipsum dolor sit amet.</p>
+              <p class="product__price product__price--sale">$200.00<span class="product__price-before">$1000.00</span> </p>
+              <button class="button bgcolor--wave product__buy"><i class="fas fa-shopping-cart"></i> +</button>
+              <div class="product__other-buttons">
+                <button class="button wishlist"><i class="fas fa-heart"></i> Add to wishlist</button>
+                <button class="button compare"><i class="far fa-copy"></i> Add to compare</button>
+              </div>
+            </article>
+          </li>
+          <li class="product-list__item product">
+            <div class="product__img"><img src="img/camera.png" alt=""></div>
+            <article class="product__content">
+              <h3 class="title product__title">Camera</h3>
+              <p class="subtitle product__subtitle">Lorem ipsum dolor sit amet.</p>
+              <p class="product__price product__price--sale">$200.00<span class="product__price-before">$300.00</span> </p>
+              <button class="button bgcolor--wave product__buy"><i class="fas fa-shopping-cart"></i> +</button>
+              <div class="product__other-buttons">
+                <button class="button wishlist"><i class="fas fa-heart"></i> Add to wishlist</button>
+                <button class="button compare"><i class="far fa-copy"></i> Add to compare</button>
+              </div>
+            </article>
+          </li>
+        </ul>
+      </article>
+    </section>
+    <section class="section counters">
+      <article class="section__content counters__content">
+          <h2 class="title section__title counters__title">Counters</h2>
+          <ul class="counters__list counters-list">
+            <li class="counters-list__item">
+              <p class="counters-list__number">600</p>
+              <h3 class="counters-list__title">Grape varieties</h3>
+              <p class="counters-list__subtitle">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste, esse.</p>
+            </li>
+            <li class="counters-list__item">
+              <p class="counters-list__number">50</p>
+              <h3 class="counters-list__title">Suppliers</h3>
+              <p class="counters-list__subtitle">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste, esse.</p>
+            </li>
+            <li class="counters-list__item">
+              <p class="counters-list__number">30</p>
+              <h3 class="counters-list__title">Countries</h3>
+              <p class="counters-list__subtitle">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste, esse.</p>
+            </li>
+          </ul>
+      </article>
+    </section>
+    <section class="section advantage">
+      <article class="section__content advantage__content">
+      <h2 class="title section__title advantage__title">Fast and reliable delivery services</h2>
+      <ul class="advantage__list advantage-list">
+        <li class="advantage-list__item">
+          <div class="advantage-list__img fas fa-truck"></div>
+          <div class="advantage-list__content">
+            <h3 class="advantage-list__title">Making your life easier</h3>
+            <p class="advantage-list__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam delectus molestiae a unde ipsam nam qui, quidem reiciendis hic blanditiis.</p>
+          </div>
+        </li>
+        <li class="advantage-list__item">
+          <div class="fas fa-plane advantage-list__img"></div>
+          <div class="advantage-list__content">
+            <h3 class="advantage-list__title">Providing qualitative services</h3>
+            <p class="advantage-list__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam delectus molestiae a unde ipsam nam qui, quidem reiciendis hic blanditiis.</p>
+          </div>
+        </li>
+        <li class="advantage-list__item">
+          <div class="advantage-list__img fab fa-dropbox"></div>
+          <div class="advantage-list__content">
+            <h3 class="advantage-list__title">With no measures</h3>
+            <p class="advantage-list__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam delectus molestiae a unde ipsam nam qui, quidem reiciendis hic blanditiis.</p>
+          </div>
+        </li>
+        <li class="advantage-list__item">
+          <div class="advantage-list__img fas fa-calculator"></div>
+          <div class="advantage-list__content">
+            <h3 class="advantage-list__title">Comfortable payment</h3>
+            <p class="advantage-list__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam delectus molestiae a unde ipsam nam qui, quidem reiciendis hic blanditiis.</p>
+          </div>
+        </li>
+      </ul>
+      </article>
+    </section>
+    <div class="list-wrapper">
+      <ul class="advantage__list other-advantage-list">
+        <li class="other-advantage-list__item">
+          <div class="other-advantage-list__head">
+            <div class="other-advantage-list__img fas fa-calculator"></div>
+            <h3 class="other-advantage-list__title">
+              Delivery
+              <span>costs</span>
+            <h2 class="other-advantage-list__subtitle"></h2>
+          </div>
+          <div class="other-advantage-list__content">
+            <p class="other-advantage-list__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam delectus molestiae a unde ipsam nam qui, quidem reiciendis hic blanditiis.</p>
+            <a href="" class="other-advantage-list__more fas fa-angle-double-right color--white"></a>
+          </div>
+        </li>
+        <li class="other-advantage-list__item bgcolor--yellow">
+          <div class="other-advantage-list__head">
+            <div class="other-advantage-list__img color--red far fa-clock"></div>
+            <h3 class="other-advantage-list__title color--gray">
+              Terms
+              <span>of delivery</span>
+            </h3>
+          </div>
+          <div class="other-advantage-list__content color--gray">
+            <p class="other-advantage-list__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam delectus molestiae a unde ipsam nam qui, quidem reiciendis hic blanditiis.</p>
+            <a href=""p class="other-advantage-list__more fas fa-angle-double-right color--red"></a>
+          </div>
+        </li>
+        <li class="other-advantage-list__item">
+          <div class="other-advantage-list__head">
+            <div class="other-advantage-list__img fas fa-paper-plane"></div>
+            <h3 class="other-advantage-list__title">
+              Nearest
+              <span>branch</span>
+            </h3>
+            <h2 class="other-advantage-list__subtitle"></h2>
+          </div>
+          <div class="other-advantage-list__content">
+            <p class="other-advantage-list__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam delectus molestiae a unde ipsam nam qui, quidem reiciendis hic blanditiis.</p>
+            <a href="" class="other-advantage-list__more fas fa-angle-double-right color--white"></a>
+          </div>
+        </li>
+        <li class="other-advantage-list__item bgcolor--gray">
+          <div class="other-advantage-list__head">
+            <div class="other-advantage-list__img fas fa-phone"></div>
+            <h3 class="other-advantage-list__title">
+              Calling
+              <span>courier</span>
+            </h3>
+            <h2 class="other-advantage-list__subtitle"></h2>
+          </div>
+          <div class="other-advantage-list__content">
+            <p class="other-advantage-list__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam delectus molestiae a unde ipsam nam qui, quidem reiciendis hic blanditiis.</p>
+            <a href="" class="other-advantage-list__more fas fa-angle-double-right color--white"></a>
+          </div>
+        </li>  
+      </ul>
+    </div>
+    <section class="section other-info">
+      <article class="other-info__article">
+        <h2 class="other-info__title">
+          About
+          <span>our company</span>
+        </h2>
+        <p class="other-info__subtitle">Everything we do, we do for you</p>
+        <p class="other-info__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus sapiente distinctio et maxime doloribus nihil esse cumque suscipit, mollitia aliquam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus sapiente distinctio et maxime doloribus nihil esse cumque suscipit, mollitia aliquam.</p>
+        <p class="other-info__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur facere nulla vero, consectetur ex ipsa recusandae officiis est quod maxime.Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus sapiente distinctio et maxime doloribus nihil esse cumque suscipit, mollitia aliquam.</p>
+        <a href="" class="button bgcolor--wave other-info__more">Read more</a>
+      </article>
+      <article class="other-info__article">
+        <h2 class="other-info__title">
+          Delivery
+          <span>solutions</span>
+        </h2>
+        <ol class="other-info__list other-info-list">
+          <li class="other-info-list__item">Every day, more than 1,000 jorneys</li>
+          <li class="other-info-list__item">More than 240 missions</li>
+          <li class="other-info-list__item">29 sortings and distibution centers</li>
+          <li class="other-info-list__item">More than 1 thousand employees</li>
+        </ol>
+      </article>
+    </section>
+  </main>
+  <footer class="page-footer">
+    <ul class="page-footer__list footer-list">
+      <li class="footer-list__item">
+        <h3 class="title footer-list__title">Information</h3>
+        <ul class="footer-nav">
+          <li class="footer-nav__item"><a href="">About Us</a></li>
+          <li class="footer-nav__item"><a href="">Delivery</a></li>
+          <li class="footer-nav__item"><a href="">Privat Policy</a></li>
+          <li class="footer-nav__item"><a href="">Terms & Conditions</a></li>
+        </ul>
+      </li>
+      <li class="footer-list__item">
+       <h3 class="title footer-list__title">Customer Service</h3>
+        <ul class="footer-nav">
+          <li class="footer-nav__item"><a href="">Contact Us</a></li>
+          <li class="footer-nav__item"><a href="">Returns</a></li>
+          <li class="footer-nav__item"><a href="">Site Map</a></li>
+        </ul>
+      </li>
+      <li class="footer-list__item">
+        <h3 class="title footer-list__title">Extras</h3>
+        <ul class="footer-nav">
+          <li class="footer-nav__item"><a href="">Brands</a></li>
+          <li class="footer-nav__item"><a href="">Gift Vouchers</a></li>
+          <li class="footer-nav__item"><a href="">Affiliates</a></li>
+          <li class="footer-nav__item"><a href="">Specials</a></li>
+        </ul>
+      </li>
+      <li class="footer-list__item">
+        <h3 class="title footer-list__title">My Account</h3>
+        <ul class="footer-nav">
+          <li class="footer-nav__item"><a href="">My Account</a></li>
+          <li class="footer-nav__item"><a href="">Order History</a></li>
+          <li class="footer-nav__item"><a href="">Wish List</a></li>
+          <li class="footer-nav__item"><a href="">Newsletter</a></li>
+        </ul>
+      </li>
+    </ul>
+    <div class="copy-follow">
+      <div class="copy">
+        <p class="copy__text">Theninehertz.com, eCommerece © 2015</p>
+        <p class="copy__designed-by">
+          Designed by <img src="./img/copy.png" alt="">
+        </p>
+      </div>
+      <div class="follow">
+        <p class="follow__text">Follow us</p>
+        <ul class="follow_list follow-list">
+          <li class="follow-list__item"><a class="fab fa-facebook-f" href=""></a></li>
+          <li class="follow-list__item"><a class="fab fa-twitter" href=""></a></li>
+          <li class="follow-list__item"><a class="fab fa-linkedin-in" href=""></a></li>
+          <li class="follow-list__item"><a class="fab fa-google-plus-g" href=""></a></li>
+          <li class="follow-list__item"><a class="fab fa-youtube" href=""></a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <a class="page-up">
+    <i class="fas fa-angle-up page-up__arrow"></i>
+    <p class="page-up__text">Up</p>
+  </a>
+  <!-- Pop Ups -->
+  <!-- <div class="pop-up-sign sign-in pop-up-sign--hidden">
+      <div class="pop-up-sign__content">
+      <h2 class="pop-up-sign__head">Sign In</h2>
+      <form class="pop-up-sign__form" action="">
+        <input id="e-mail" type="text" placeholder="E-mail">
+        <input id="password" type="password" placeholder="Password">
+        <input class="button button--yellow" type="submit" value="Sign In">
+      </form>
+      <div class="pop-up-sign__close" onclick="togglePopUp(signin)"></div>
+      </div>
+  </div>
+  <div class="pop-up-sign sign-up pop-up-sign--hidden">
+      <div class="pop-up-sign__content">
+      <h2 class="pop-up-sign__head">Sign Up</h2>
+      <form class="pop-up-sign__form" action="">
+        <input id="e-mail" type="text" placeholder="E-mail">
+        <input id="password" type="password" placeholder="Password">
+        <input class="button button--yellow"type="submit" value="Sign Up">
+      </form>
+      <div class="pop-up-sign__close" onclick="togglePopUp(signup)"></div>
+      </div>
+  </div> -->
+
+</body>
+<!-- Scripts -->
+<script src="js/menu.js"></script>
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<!-- Слайдер -->
+<script src="js/custom.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+</html>
