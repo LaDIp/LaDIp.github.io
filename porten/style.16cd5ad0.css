@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Post No Bills Jaffna SemiBold';
+  src: url('PostNoBillsJaffna-SemiBold.21441b24.ttf');
+}
+
 .header {
   position: relative;
   display: flex;
@@ -33,7 +38,7 @@
 }
 .logo {
   margin: 0.2rem 0;
-  font-family: Post No Bills Jaffna SemiBold, sans-serif;
+  font-family: 'Post No Bills Jaffna SemiBold', sans-serif;
   font-size: 2.5rem;
 }
 .nav {
