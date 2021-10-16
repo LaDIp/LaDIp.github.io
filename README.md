@@ -39,4 +39,4 @@ Link: [Porten](https://LaDIp.github.io/porten)
 ____
 ## Porten
 ![](https://github.com/LaDIp/LaDIp.github.io/blob/master/images/memory-game.gif)
-Link: [Porten](https://LaDIp.github.io/memory-game)
+Link: [MemoryGame](https://LaDIp.github.io/memory-game)
