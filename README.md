@@ -44,4 +44,4 @@ Link: [MemoryGame](https://LaDIp.github.io/memory-game)
 ____
 ## Audiophile
 ![](https://github.com/LaDIp/LaDIp.github.io/blob/master/images/audiophile.gif)
-Link: [MemoryGame](https://LaDIp.github.io/audiophile-store)
+Link: [Audiophile](https://LaDIp.github.io/audiophile-store)
