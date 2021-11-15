@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/792d8748a3.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Document</title>
+    <script defer src="main.js"></script>
+    <link href="main.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="upper">
+      <div class="container d-flex">
+        <p class="upper__slogan">We make your home more quality.</p>
+        <ul class="social">
+          <li class="social__item">
+            <a class="social__link" href="www.facebook.com">
+              <i class="fab fa-facebook-f"></i>
+              <span class="g-hidden">facebook</span>
+            </a>
+          </li>
+          <li class="social__item">
+            <a class="social__link" href="www.twitter.com">
+              <i class="fab fa-twitter"></i>
+              <span class="g-hidden">twitter</span>
+            </a>
+          </li>
+          <li class="social__item">
+            <a class="social__link" href="www.google.com">
+              <i class="fab fa-google-plus-g"></i>
+              <span class="g-hidden">google</span>
+            </a>
+          </li>
+          <li class="social__item">
+            <a class="social__link" href="www.behance.com">
+              <i class="fab fa-behance"></i>
+              <span class="g-hidden">behance</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <header class="container header">
+      <a href="/" class="logo">
+        <picture class="logo__img">
+          <img src="./assets/logo.svg" alt="logo" />
+        </picture>
+        <div class="logo__text">
+          <h1 class="logo__title">AUHANDY</h1>
+          <p class="logo__slogan">We repair everything.</p>
+        </div>
+      </a>
+      <button class="header__burger">
+        <i class="fas fa-bars"></i>
+        <p class="g-hidden">Menu</p>
+      </button>
+      <nav class="header__nav">
+        <ul class="nav">
+          <li class="nav__item">
+            <a class="nav__link" href="/">HOME</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="/">SERVICES</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="/">PROJECTS</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="/">PAGES</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="/">BLOG</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="/">CONTACT</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="header__search">
+        <i class="fas fa-search"></i>
+      </button>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="container">
+          <div class="row align-items-center justify-content-between">
+            <h2 class="g-hidden">Expert Handyman & Remodeling</h2>
+            <picture class="col-sm-5 col-12 hero__img">
+              <img src="./assets/hero-img.png" alt="hero" />
+            </picture>
+            <article class="col offset-md-1 hero__article">
+              <h3 class="hero__title">Expert Handyman & Remodeling</h3>
+              <p class="hero__text">
+                Integer consectetur dapibus nisi, et faucibus augue lobortis ut.
+                Proin quis porttitor sem. Donec ultrices felis quis tincidunt
+              </p>
+              <div class="hero__buttons">
+                <button id="showmodal" class="g-btn">learn more</button>
+                <button class="g-btn g-btn--transparent">get a quote</button>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="experiance">
+        <div class="container">
+          <div class="row align-items-center justify-content-between">
+            <h3 class="col-xl col-md-5 col-sm-6 pl-md-0 experiance__title">
+              We have 13 years of experience in Auhandy.
+            </h3>
+            <div class="col-xl-2 col-md-4 col-sm-6 pr-md-0">
+              <a class="g-btn g-btn--icon" href="tel:+1-23-568-8967">
+                <i class="g-btn__icon fas fa-mobile-alt"></i>
+                +1 23 568 8967
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="container features-section">
+        <div class="row align-items-center">
+          <picture class="col-xl col-md features-section__img">
+            <img src="./assets/hero-img.png" alt="features" />
+          </picture>
+          <div class="col-xl-7 col-md-7 features-section__content">
+            <h2 class="features-section__title">Why choose us</h2>
+            <p class="features-section__text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+              nec ligula temp cursus justo eu, blandit quam. Sed viverra, quam
+              ut maximus porta, lorem bibendum metus, et eleifend mi nunc ac
+              arcu facilisis lorem urna eu quam.
+            </p>
+            <ul class="features">
+              <li class="features__item feature">
+                <img
+                  class="feature__icon"
+                  src="./assets/features_1.svg"
+                  alt=""
+                />
+                <div>
+                  <h4 class="feature__title">Easy To Customize.</h4>
+                  <p class="feature__desc">
+                    Mauris efficitur mi eu nisi venenatis vestibulum sit tellus.
+                  </p>
+                </div>
+              </li>
+              <li class="features__item feature">
+                <img
+                  class="feature__icon"
+                  src="./assets/features_2.svg"
+                  alt=""
+                />
+                <div>
+                  <h4 class="feature__title">24/7 Support Service</h4>
+                  <p class="feature__desc">
+                    Aliquam vel felis quis ipsum fermentum sollicitudin eget.
+                  </p>
+                </div>
+              </li>
+              <li class="features__item feature">
+                <img
+                  class="feature__icon"
+                  src="./assets/features_3.svg"
+                  alt=""
+                />
+                <div>
+                  <h4 class="feature__title">Gift For Loyal Customers</h4>
+                  <p class="feature__desc">
+                    Ut imperdiet libero sed tel pretium convallis quis lectus.
+                  </p>
+                </div>
+              </li>
+              <li class="features__item feature">
+                <img
+                  class="feature__icon"
+                  src="./assets/features_4.svg"
+                  alt=""
+                />
+                <div>
+                  <h4 class="feature__title">Favorite Customers</h4>
+                  <p class="feature__desc">
+                    Lorem ipsum dolor sit a consectetur adipiscing.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="g-section services-section">
+        <div class="container">
+          <h2
+            class="
+              g-section__title g-section__title--white g-section__title--center
+            "
+          >
+            OUR SERVICES
+          </h2>
+          <ul class="row services">
+            <li class="col-xl-3 col-md-6 pr-xl-0 mr-xl-0 mb-4 services__item">
+              <div class="service">
+                <img
+                  class="service__icon"
+                  src="./assets/services_1.svg"
+                  alt=""
+                />
+                <h3 class="service__title">Engine Repairs</h3>
+                <p class="service__desc">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+              </div>
+            </li>
+            <li class="col-xl-3 col-md-6 mb-4 services__item">
+              <div class="service">
+                <img
+                  class="service__icon"
+                  src="./assets/services_2.svg"
+                  alt=""
+                />
+                <h3 class="service__title">Electrical</h3>
+                <p class="service__desc">
+                  Donec malesuada, purus a viverra sodales leo purus lobortis
+                </p>
+              </div>
+            </li>
+            <li class="col-xl-3 col-md-6 mb-4 services__item">
+              <div class="service">
+                <img
+                  class="service__icon"
+                  src="./assets/services_3.svg"
+                  alt=""
+                />
+                <h3 class="service__title">Plumbing</h3>
+                <p class="service__desc">
+                  Praesent dignissim mattis mauris. Sed finibus elementu.
+                </p>
+              </div>
+            </li>
+            <li class="col-xl-3 col-md-6 pr-xl-0 mr-xl-0 mb-4 services__item">
+              <div class="service">
+                <img
+                  class="service__icon"
+                  src="./assets/services_4.svg"
+                  alt=""
+                />
+                <h3 class="service__title">Repair House</h3>
+                <p class="service__desc">
+                  Phasellus venenatis mauris eget isque tincidunt
+                </p>
+              </div>
+            </li>
+          </ul>
+          <div class="row">
+            <a class="g-btn g-btn--center" href="/">VIEW ALL SERVICES</a>
+          </div>
+        </div>
+      </section>
+      <section class="container g-section projects-section">
+        <h2 class="g-section__title g-section__title--center">OUR PROJECTS</h2>
+        <ul class="categories">
+          <li class="categories__item">
+            <button class="category category--active">All</button>
+          </li>
+          <li class="categories__item">
+            <button class="category">Engine Repair</button>
+          </li>
+          <li class="categories__item">
+            <button class="category">Electrical</button>
+          </li>
+          <li class="categories__item">
+            <button class="category">Plumbing</button>
+          </li>
+          <li class="categories__item">
+            <button class="category">Repair House</button>
+          </li>
+          <li class="categories__item">
+            <button class="category">Wall Paint</button>
+          </li>
+        </ul>
+        <ul class="projects-grid">
+          <li class="projects-grid__item project">
+            <picture class="project__img">
+              <img
+                src="./assets/grid_1.jpg"
+                alt="Pellentesque finibus maximus"
+              />
+            </picture>
+            <div class="project__content">
+              <h3 class="project__title">Pellentesque finibus maximus.</h3>
+              <p class="project__desc">Repair House</p>
+              <i class="project__search fas fa-search"></i>
+            </div>
+          </li>
+          <li class="projects-grid__item project">
+            <picture class="project__img">
+              <img
+                src="./assets/grid_2.jpg"
+                alt="Pellentesque finibus maximus"
+              />
+            </picture>
+            <div class="project__content">
+              <h3 class="project__title">Pellentesque finibus maximus.</h3>
+              <p class="project__desc">Repair House</p>
+              <i class="project__search fas fa-search"></i>
+            </div>
+          </li>
+          <li class="projects-grid__item project">
+            <picture class="project__img">
+              <img
+                src="./assets/grid_3.jpg"
+                alt="Pellentesque finibus maximus"
+              />
+            </picture>
+            <div class="project__content">
+              <h3 class="project__title">Pellentesque finibus maximus.</h3>
+              <p class="project__desc">Repair House</p>
+              <i class="project__search fas fa-search"></i>
+            </div>
+          </li>
+          <li class="projects-grid__item project">
+            <picture class="project__img">
+              <img
+                src="./assets/grid_1.jpg"
+                alt="Pellentesque finibus maximus"
+              />
+            </picture>
+            <div class="project__content">
+              <h3 class="project__title">Pellentesque finibus maximus.</h3>
+              <p class="project__desc">Repair House</p>
+              <i class="project__search fas fa-search"></i>
+            </div>
+          </li>
+          <li class="projects-grid__item project">
+            <picture class="project__img">
+              <img
+                src="./assets/grid_2.jpg"
+                alt="Pellentesque finibus maximus"
+              />
+            </picture>
+            <div class="project__content">
+              <h3 class="project__title">Pellentesque finibus maximus.</h3>
+              <p class="project__desc">Repair House</p>
+              <i class="project__search fas fa-search"></i>
+            </div>
+          </li>
+          <li class="projects-grid__item project">
+            <picture class="project__img">
+              <img
+                src="./assets/grid_3.jpg"
+                alt="Pellentesque finibus maximus"
+              />
+            </picture>
+            <div class="project__content">
+              <h3 class="project__title">Pellentesque finibus maximus.</h3>
+              <p class="project__desc">Repair House</p>
+              <i class="project__search fas fa-search"></i>
+            </div>
+          </li>
+        </ul>
+        <div class="row">
+          <a class="g-btn g-btn--center" href="/">ALL PROJECTS</a>
+        </div>
+      </section>
+      <section class="problems">
+        <div class="container">
+          <div class="row">
+            <h3 class="problems__title col-xl-6 col-md-10">
+              You have some problems in housing?
+            </h3>
+          </div>
+          <div class="row">
+            <div class="col-xl-3 col-md-6">
+              <a class="g-btn g-btn--icon" href="tel:+1-23-568-8967">
+                <i class="g-btn__icon fas fa-mobile-alt"></i>
+                +1 23 568 8967
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="g-section contact">
+        <div class="container">
+          <div class="row">
+            <section class="col-md-6 section">
+              <h2 class="g-section__title">OUR LOCATION</h2>
+              <div class="location">
+                <img
+                  class="location__point"
+                  src="./assets/map_point.svg"
+                  alt=""
+                />
+              </div>
+            </section>
+            <section class="col-md-6 section">
+              <h2 class="g-section__title">GET A QUOTE</h2>
+              <form class="feedback" action="">
+                <input
+                  class="g-input feedback__input"
+                  type="text"
+                  name="name_1"
+                  placeholder="Your Name"
+                />
+                <input
+                  class="g-input feedback__input"
+                  type="text"
+                  name="name_2"
+                  placeholder="Your Name"
+                />
+                <input
+                  class="g-input feedback__input"
+                  type="text"
+                  name="name_3"
+                  placeholder="Your Name"
+                />
+                <input
+                  class="g-input feedback__input"
+                  type="text"
+                  name="name_4"
+                  placeholder="Your Name"
+                />
+                <textarea
+                  class="g-input g-textarea feedback__textarea"
+                  name="name_5"
+                  placeholder="Your Name"
+                ></textarea>
+                <button class="g-btn" type="submit">SUBMIT</button>
+              </form>
+            </section>
+          </div>
+        </div>
+      </div>
+      <section class="container g-section">
+        <h2 class="g-hidden">Our partners</h2>
+        <ul class="partners">
+          <li class="partners__item">
+            <img src="./assets/partner_1.png" alt="carpentry" />
+          </li>
+          <li class="partners__item">
+            <img src="./assets/partner_2.png" alt="nahdwork" />
+          </li>
+          <li class="partners__item">
+            <img src="./assets/partner_3.png" alt="carpentry" />
+          </li>
+          <li class="partners__item">
+            <img src="./assets/partner_4.png" alt="lorem" />
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <article class="col-xl-4 col-md-6 pl-sm-0 footer-article">
+            <h3 class="footer-article__title">Contact Us</h3>
+            <ul class="contacts">
+              <li class="contacts__item">
+                <i class="contacts__icon orange icon fas fa-mobile-alt"></i>
+                <p class="contacts__text">
+                  <span class="contacts__phone">+1 23 567 8596</span>
+                  Support 24/7 Weekdays
+                </p>
+              </li>
+              <li class="contacts__item">
+                <i class="contacts__icon orange fas fa-map-marker-alt"></i>
+                <p class="contacts__text">
+                  Auhandy Tower, New York,NY 10013, USA
+                </p>
+              </li>
+              <li class="contacts__item">
+                <i class="contacts__icon orange far fa-envelope"></i>
+                <p class="contacts__text">info@example.com</p>
+              </li>
+              <li class="contacts__item">
+                <i class="contacts__icon orange far fa-clock"></i>
+                <p class="contacts__text">Weekdays: 09:00am - 06:00pm</p>
+              </li>
+            </ul>
+          </article>
+          <article class="col-xl-4 col-md-6 footer-article">
+            <h3 class="footer-article__title">Our Services</h3>
+            <ul class="all-services">
+              <li class="all-services__item">
+                <i class="orange fas fa-chevron-right"></i>
+                <a class="all-services__link">Electrical</a>
+              </li>
+              <li class="all-services__item">
+                <i class="orange fas fa-chevron-right"></i>
+                <a class="all-services__link">Installation</a>
+              </li>
+              <li class="all-services__item">
+                <i class="orange fas fa-chevron-right"></i>
+                <a class="all-services__link">Plumbing</a>
+              </li>
+              <li class="all-services__item">
+                <i class="orange fas fa-chevron-right"></i>
+                <a class="all-services__link">Garden Repairs</a>
+              </li>
+              <li class="all-services__item">
+                <i class="orange fas fa-chevron-right"></i>
+                <a class="all-services__link">Engine Repair</a>
+              </li>
+              <li class="all-services__item">
+                <i class="orange fas fa-chevron-right"></i>
+                <a class="all-services__link">Soil Drilling</a>
+              </li>
+              <li class="all-services__item">
+                <i class="orange fas fa-chevron-right"></i>
+                <a class="all-services__link">Repair House</a>
+              </li>
+              <li class="all-services__item">
+                <i class="orange fas fa-chevron-right"></i>
+                <a class="all-services__link">Support 24/7</a>
+              </li>
+              <li class="all-services__item">
+                <i class="orange fas fa-chevron-right"></i>
+                <a class="all-services__link">Home Maintenance</a>
+              </li>
+              <li class="all-services__item">
+                <i class="orange fas fa-chevron-right"></i>
+                <a class="all-services__link">Inspection House</a>
+              </li>
+              <li class="all-services__item">
+                <i class="orange fas fa-chevron-right"></i>
+                <a class="all-services__link">Wall Paint</a>
+              </li>
+              <li class="all-services__item">
+                <i class="orange fas fa-chevron-right"></i>
+                <a class="all-services__link">Remodeling Ceiling</a>
+              </li>
+            </ul>
+          </article>
+          <article class="col-xl-4 col-12 pr-sm-0 footer-article">
+            <h3 class="g-hidden">Sale</h3>
+            <div class="sale">
+              <p class="sale__text">
+                get
+                <span class="sale__amount orange">25%</span>
+                off
+              </p>
+              <p class="sale__category">Electrical Services</p>
+              <p class="sale__text">
+                Redeem Code: <span class="orange">HANDYHPY28</span>
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </footer>
+    <div class="under">
+      Copyright © 2018 <span class="orange">Auhandy.</span> Get The Theme
+    </div>
+    <div class="g-modal">
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-md-6 col-12">
+            <div class="g-modal__inner">
+              <form class="feedback" action="">
+                <input
+                  class="g-input g-modal__input"
+                  type="text"
+                  name="name"
+                  placeholder="Your Name"
+                />
+                <input
+                  class="g-input g-modal__input phone"
+                  type="text"
+                  name="phone"
+                  placeholder="Your Phone"
+                />
+                <input
+                  class="g-input g-modal__input"
+                  type="text"
+                  name="mail"
+                  placeholder="Your Mail"
+                />
+                <button id="submit" class="g-btn" type="submit">SUBMIT</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
