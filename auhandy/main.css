@@ -215,6 +215,9 @@ h2::after {
 .header__nav {
   margin-left: auto;
 }
+.header__nav--active {
+  display: block !important;
+}
 .header__search {
   margin-left: 1.875rem;
   color: #333333;
