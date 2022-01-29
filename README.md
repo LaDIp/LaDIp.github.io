@@ -1,4 +1,6 @@
 # Оглавление
+Проекты отсортированны по новизне (от новым к старым)
+1. [Rick And Morty](https://github.com/LaDIp/LaDIp.github.io/#rickandmorty)
 1. [Audiophile](https://github.com/LaDIp/LaDIp.github.io/#audiophile)
 2. [MemoryGame](https://github.com/LaDIp/LaDIp.github.io/#memorygame)
 3. [Porten](https://github.com/LaDIp/LaDIp.github.io/#porten)
@@ -8,6 +10,10 @@
 7. [Ecommerce](https://github.com/LaDIp/LaDIp.github.io/#ecommerce)
 8. [Uniquetech](https://github.com/LaDIp/LaDIp.github.io/#uniquetech)
 9. [Tajam](https://github.com/LaDIp/LaDIp.github.io/#tajam)
+____
+## RickAndMorty
+![](https://github.com/LaDIp/LaDIp.github.io/blob/master/images/rickandmorty.gif)
+Link: [RickAndMorty](https://github.com/LaDIp/rickandmorty)
 ____
 ## Audiophile
 ![](https://github.com/LaDIp/LaDIp.github.io/blob/master/images/audiophile.gif)
